@@ -10,3 +10,6 @@ export function setSearchedMeals(state, meals) {
   export function setIngredient(state, ingredient) {
     state.ingredient = ingredient
   }
+ export function addToFavorites(state,favorites){
+  state.favorites.push(favorites)
+ }

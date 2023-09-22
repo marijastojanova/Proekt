@@ -20,3 +20,7 @@ export function searchMealsByIngredient({ commit }, ing) {
       commit('setMealsByIngredients', data.meals)
     })
 }
+
+export function toggleFavorite({ commit }, meal) {
+  commit('addToFavorites', meal);
+}

@@ -13,6 +13,9 @@
             <router-link :to="{name:'ingredients'}" class="inline-flex   items-center px-2 h-full transition-color hover:bg-purple-100">
                 Meals by Ingredients
             </router-link>
+            <router-link :to="{name:'favorite'}" class="inline-flex   items-center px-2 h-full transition-color hover:bg-purple-100">
+                Favorite
+            </router-link>
         </div>
     </header>
 </template>
